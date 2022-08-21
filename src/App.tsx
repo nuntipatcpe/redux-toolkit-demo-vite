@@ -14,7 +14,6 @@ import { useAppDispatch } from "./store/store";
 
 function App() {
   const reducer = useSelector(sliceSelector);
-
   const dispatch = useAppDispatch();
 
   const theme = createTheme({

@@ -1,7 +1,6 @@
 // import { configureStore } from "@reduxjs/tookit";
 import { configureStore } from "@reduxjs/toolkit";
 import { useDispatch } from "react-redux";
-
 import sliceReducer from "./slices/slice";
 
 const reducer = {
